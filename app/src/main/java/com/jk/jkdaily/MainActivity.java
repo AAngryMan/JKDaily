@@ -16,7 +16,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tv_test_library).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, MainActivity_Library.class));
+                MainActivity_Library mainActivity_library = new MainActivity_Library();
+                mainActivity_library.showToast(MainActivity.this);
             }
         });
     }
