@@ -1,4 +1,4 @@
-package com.jk.mylibrarytest;
+package com.jk.jkdaily;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,16 +9,14 @@ import android.widget.Toast;
  * Created by Administrator on 2017/6/11.
  */
 
-public class MainActivity_Library extends AppCompatActivity {
-
+public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
     }
+
     public void showToast(){
-        Toast.makeText(this,"from MainActivity Library",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"Form SecondActivity",Toast.LENGTH_SHORT).show();
     }
-
-
 }
