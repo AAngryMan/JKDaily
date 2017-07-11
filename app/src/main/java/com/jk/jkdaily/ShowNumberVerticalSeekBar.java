@@ -54,8 +54,6 @@ public class ShowNumberVerticalSeekBar extends RelativeLayout {
         mIvShowNumber = (ImageView) findViewById(R.id.iv_show_number);
         mRlViewContainer = (RelativeLayout) findViewById(R.id.rl_view_container);
         mPbVertical = (ProgressBar) findViewById(R.id.pb_vertical);
-
-
     }
 
     @Override

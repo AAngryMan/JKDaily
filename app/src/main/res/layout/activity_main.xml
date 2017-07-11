@@ -8,16 +8,33 @@
     tools:context="com.jk.jkdaily.MainActivity">
 
     <com.jk.jkdaily.ShowNumberVerticalSeekBar
+        android:visibility="gone"
         android:id="@+id/pb_vertical_simple_shape"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="151dp"
         android:layout_marginTop="157dp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="fsaffffffffffffffffffffffffffffffffffffffffffff
-        ffffffffffffffffffffffffffffffffffffffffffffffffff"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_recover"
+            android:text="还原"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_start_draw"
+            android:text="start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <com.jk.jkdaily.PathDrawingView
+        android:id="@+id/pdv_path_drawing_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         />
 
 
